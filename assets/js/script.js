@@ -4,7 +4,7 @@ document.getElementById("submit").addEventListener("click", () => {
 
     let results = [];
 
-    let lines = document.getElementById("textbox").value.split("\n");
+    let lines = document.getElementById("content").value.split("\n");
 
     for (let line of lines) {
 
